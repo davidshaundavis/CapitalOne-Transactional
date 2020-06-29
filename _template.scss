@@ -44,6 +44,7 @@ a {
   p {
     padding-bottom: 6px;
   }
+
   .name {
     text-transform: uppercase;
   }
@@ -62,14 +63,8 @@ hr {
 .phone,
 .phoneText {
   padding-top: 20px;
-
   background-color: #e8e4e7;
   border-bottom: 1px solid black;
-
-  // img {
-  //   width: 48px;
-  //   height: 48px;
-  // }
 
   p {
     font-size: 12px;
@@ -110,6 +105,5 @@ hr {
     .secondText {
       margin-bottom: 26px !important;
     }
-      
   }
 }

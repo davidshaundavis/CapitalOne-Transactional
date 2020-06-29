@@ -29,11 +29,9 @@ a {
 
   p {
     color: white;
-    padding-top: 10px;
-    padding-left: 5px;
+    padding-top: 25px;
     font-weight: 400;
     font-size: 20px;
-    margin-top: 20px;
   }
 }
 
@@ -43,28 +41,12 @@ a {
 
 .infoBodyOne,
 .infoBodyTwo {
-
   p {
-    padding-left: 5px;
     padding-bottom: 6px;
   }
-
   .name {
     text-transform: uppercase;
   }
-}
-
-.infoBodyThree {
-
-  p {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-left: 5px;
-  }
-}
-
-.price-Date {
-  margin-left: 65px;
 }
 
 hr {
@@ -72,43 +54,22 @@ hr {
 }
 
 .poll {
-
   p {
-    padding-top: 16px;
-    padding-left: 5px;
+    padding-top: 8px;
   }
 }
 
-.icon {
-  img {
-    margin-left: 20px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    width: 48px;
-    height: 48px;
-    color: #0a0a0a;
-  }
-
-  p {
-    font-size: 14px;
-  }
-}
-
-.phone {
-  padding-top: 20px;
-  background-color: #e8e4e7;
-  border-bottom: 1px solid black;
-
-  img {
-    width: 48px;
-    height: 48px;
-  }
-}
-
+.phone,
 .phoneText {
   padding-top: 20px;
+
   background-color: #e8e4e7;
   border-bottom: 1px solid black;
+
+  // img {
+  //   width: 48px;
+  //   height: 48px;
+  // }
 
   p {
     font-size: 12px;
@@ -117,9 +78,11 @@ hr {
   }
 }
 
+
 .footer {
   padding-top: 20px;
   background-color: #e8e4e7;
+
   p {
     padding: 0 0 5px 8px;
     font-size: 10px;
@@ -129,5 +92,24 @@ hr {
       color: #666666;
     }
   }
+}
 
+
+/* Small only */
+@media only screen and (max-width: #{$global-breakpoint}) {
+
+  .header {
+    .signIn {
+      p {
+        margin-bottom: 18px !important;
+      }
+    }
+  }
+
+  .phoneText {
+    .secondText {
+      margin-bottom: 26px !important;
+    }
+      
+  }
 }

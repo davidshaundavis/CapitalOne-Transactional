@@ -6,18 +6,18 @@ subject: My Email Templates
 <!-- Header with Logo and Sign in link-->
 <container>
   <row class="header">
-    <columns class="logo" large="6">
+    <columns class="logo" small="6" large="6">
       <a class="float-left" href="https://www.capitalone.com" target="_blank"><img src="https://i.postimg.cc/Twr9vYWR/capital-One-Logo.jpg"
           alt="Capital One Logo"></a>
     </columns>
-    <columns class="signIn" valign="bottom">
+    <columns class="signIn" valign="bottom" small="6" large="6">
       <p class="text-right"><a href="https://verified.capitalone.com/auth/signin" target="_blank">Sign In</a></p>
     </columns>
   </row>
 
   <!-- Banner -->
   <row>
-    <columns class="thanksBanner">
+    <columns class="thanksBanner text-left small-text-left" small="12" large="12">
       <p>Thanks for your payment of $27.03.</p>
     </columns>
   </row>
@@ -26,7 +26,7 @@ subject: My Email Templates
   <!-- Information Body -->
   <row>
     <!-- Regular Info -->
-    <columns class="infoBodyOne">
+    <columns class="infoBodyOne" small="12" large="12">
       <p>About your account ending in 7440</p>
       <p class="name">James,</p>
       <p>Here are the details of your posted payment:</p>
@@ -34,19 +34,19 @@ subject: My Email Templates
   </row>
   <!-- Bold Info -->
   <row>
-    <columns class="infoBodyTwo">
+    <columns class="infoBodyTwo" small="7" large="7">
       <p class="bold margin">Payment amount:</p>
       <p class="bold margin">Posted Date:</p>
     </columns>
 
-    <columns class="infoBodyTwo">
-      <p class="price-Date">$37.03</p>
-      <p class="price-Date">July 16, 2020</p>
+    <columns class="infoBodyTwo" small="5" large="5">
+      <p class="price-Date text-left">$27.03</p>
+      <p class="price-Date text-left">July 16, 2020</p>
     </columns>
   </row>
 
   <row>
-    <columns class="infoBodyThree">
+    <columns class="infoBodyThree" small="12" large="12">
       <!-- Regular Info -->
       <p>Please visit your account to <a href=" https://www.capitalone.com" target="_blank">view your pending and posted
           transactions.</a></p>
@@ -60,40 +60,34 @@ subject: My Email Templates
   <!-- Poll -->
 
   <row>
-    <columns class="poll">
+    <columns class="poll" small="12" large="12">
       <p><strong>Was this email helpful?</strong> Tell us what you think in one click.</p>
     </columns>
   </row>
 
 
   <!-- Poll Icons -->
-  <row>
-    <columns class="icon float-center"><a href="#"><img src="https://i.postimg.cc/yxjyWQPt/thumbs-up.png
-      " alt=""></a>
-      <p class="text-center"><a href="#">Absolutely</a></p>
+  <row class="icon">
+    <columns small="4" large="4"><a href="#"><img class="iconOne float-center" src="https://i.postimg.cc/yxjyWQPt/thumbs-up.png
+      " alt="Thumbs Up Rating"></a>
+      <p class="text-center oneP" small="3" large="4"><a href="#">Absolutely</a></p>
     </columns>
     
-    <columns class="icon"><a href="#"><img src="https://i.postimg.cc/rFy97Tyk/vertical.png
-      " alt=""></a>
-      <p class="text-center"><a href="#">Neutral</a></p>
+    <columns small="4" large="4"><a href="#"><img class="iconTwo float-center" src="https://i.postimg.cc/rFy97Tyk/vertical.png
+      " alt="Neutral Rating"></a>
+      <p class="text-center twoP" small="3" large="4"><a href="#">Neutral</a></p>
     </columns>
 
-    <columns class="icon"><a href="#"><img src="https://i.postimg.cc/FzNxr5j0/thumbs-down.png" alt=""></a>
-      <p class="text-center"><a href="#">Nope</a></p>
+    <columns small="4" large="4"><a href="#"><img class="iconThree float-center" src="https://i.postimg.cc/FzNxr5j0/thumbs-down.png" alt="Thumbs Down Rating"></a>
+      <p class="text-center threeP" small="3" large="4"><a href="#">Nope</a></p>
     </columns>
-
   </row>
 
 
   <!-- Phone Icon and Small text -->
   <row>
-    <columns class="phone" small="6" large="1">
-      <a href="#"><img src="https://i.postimg.cc/NGk4NFcD/cellphone.png" alt=""></a>
-    </columns>
-
-    <columns class="phoneText" small="6" valign="middle">
-      <p>Simple. Flexible. Mobile.</p>
-      <p><a href="#">Download the secure Capital One Mobile app.</a></p>
+    <columns class="phone" small="12" large="12">
+      <a href="#"><img src="https://i.postimg.cc/v8LZ2ZkD/phone.png" alt="Mobile App Image and Link"></a>
     </columns>
   </row>
 
@@ -103,7 +97,7 @@ subject: My Email Templates
   <row>
     <columns class="footer">
       <p><strong>Important Information from Capital One&reg;</strong></p>
-      <p><a href="#">Contact Us </a>|<a href="#"> Privacy </a> | <a href="#"> Help Prevent Fraud</a></p>
+      <p><a href="#">Contact Us </a>|<a href="#"> Privacy </a> | <a href="#">Help Prevent Fraud</a></p>
       <p>To ensure delivery, add capitalone@notification.capitalone.com to your address book.</p>
       <p>This email was sent to james2001@gmail.com and contains information directly related to your account with us,
         other services to which you have subscribed and/or any application you may have submitted.</p>
